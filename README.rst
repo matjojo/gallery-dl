@@ -153,6 +153,12 @@ extractor's name to force the use of a specific extractor:
 
     $ gallery-dl "tumblr:https://sometumblrblog.example"
 
+Download a pixiv Ugoira animation and convert it to webm:
+
+.. code:: bash
+
+    $ gallery-dl "pixiv_url_to_ugoira_animation" --ugoira-conv-lossless
+
 
 Configuration
 =============
